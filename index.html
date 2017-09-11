@@ -38,40 +38,62 @@
           </div>
         </div>
         <div class="row">
-          <div class="input col s12 m6 l3">
+          <div class="input col s6 m6 l3">
+            <input id="background" type="text" class="validate">
+            <label for="background">BACKGROUND</label>
+          </div>
+          <div class="input col s6 m6 l3">
             <input id="player_name" type="text" class="validate">
             <label for="player_name">PLAYER NAME</label>
           </div>
-          <div class="input col s12 m6 l3">
+          <div class="input col s6 m6 l3">
             <input id="faction" type="text" class="validate">
             <label for="faction">FACTION</label>
           </div>
-          <div class="input col s12 m6 l3">
+          <div class="input col s6 m6 l3">
             <input id="class_level" type="text" class="validate">
             <label for="class_level">RACE</label>
           </div>
-          <div class="input col s12 m6 l3">
+        </div>
+        <div class="row">
+          <div class="input col s6 m6 l3">
             <input id="background" type="text" class="validate">
             <label for="background">ALIGNMENT</label>
           </div> 
-        </div>
-        <div class="row">
-          <div class="input col s12 m6 l3">
+          <div class="input col s6 m6 l3">
             <input id="experience_points" type="text" class="validate">
             <label for="experience_points">EXPERIENCE POINTS</label>
           </div>
-          <div class="input col s12 m6 l3">
+          <div class="input col s6 m6 l3">
             <input id="dci_numberfaction" type="text" class="validate">
             <label for="dci_number">DCI NUMBER</label>
           </div>
-          <div class="input col s12 m6 l3">
+          <div class="input col s6 m6 l3">
             <input id="age" type="text" class="validate">
             <label for="age">AGE</label>
           </div>
-          <div class="input col s12 m6 l3">
+        </div>
+          <div class="row">
+          <div class="input col s3 m3 l2_5">
             <input id="height" type="text" class="validate">
             <label for="height">HEIGHT</label>
           </div>  
+          <div class="input col s3 m3 l2_5">
+            <input id="weight" type="text" class="validate">
+            <label for="weight">WEIGHT</label>
+          </div>
+          <div class="input col s6 m6 l3">
+            <input id="eyes" type="text" class="validate">
+            <label for="eyes">EYES</label>
+          </div> 
+          <div class="input col s6 m6 l3">
+            <input id="skin" type="text" class="validate">
+            <label for="skin">SKIN</label>
+          </div> 
+          <div class="input col s6 m6 l3">
+            <input id="hair" type="text" class="validate">
+            <label for="hair">HAIR</label>
+          </div> 
         </div>
         <div class="row">
           <div class="input-field col s12 m6 l6">
@@ -221,6 +243,18 @@
     <div class="row">
       <form class="input col s12 card-panel">
         <div class="row">
+          <div class="input-field col s6 m4 l12">
+            <input id="armor_class" type="text" class="validate">
+            <label for="armor_class">PASSIVE WISDOM (PERCEPTION)</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input col l12">
+            <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <label for="textarea1">OTHER PROFICIENCIES & LANGUAGES</label>
+          </div>
+        </div>
+        <div class="row">
           <div class="input-field col s6 m4 l4">
             <input id="armor_class" type="text" class="validate">
             <label for="armor_class">ARMOR CLASS</label>
@@ -235,16 +269,19 @@
           </div>
         </div>
         <div class="row">
-          <div class="input-field col s4">
+          <div class="input-field margin-block col s6 m4 l5">
             <input id="speed" type="text" class="validate">
-            <label for="speed">SPEED</label>
+            <label for="speed">Hit Point Maximum</label>
           </div>
         </div>
         <div class="row">
-          <div class="input col s6">
-              banana
+          <div class="input col l4">
             <textarea id="textarea1" class="materialize-textarea"></textarea>
-            <label for="textarea1">OTHER PROFICIENCIES & LANGUAGES</label>
+            <label for="textarea1">CURRENT HIT POINTS</label>
+          </div>
+          <div class="input col l4">
+            <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <label for="textarea1">TEMPORARY HIT POINTS</label>
           </div>
       </div>
       </form>
